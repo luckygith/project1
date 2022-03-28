@@ -10,7 +10,7 @@ if(isset($_POST['insert_product'])){
     $product_price=$_POST['product_price'];
     $status='true';
     
-    move_uploaded_file($_FILES["product_image1"]["tmp_name"],"product_images/".$_FILES["product_image1"]["name"]);                
+    move_uploaded_file($_FILES["product_image1"]["tmp_name"],"images/".$_FILES["product_image1"]["name"]);                
      $query="insert into products (product_title,product_description,product_keyword,category_id,product_image1,product_price,status) values ('$product_title','$product_description','$product_keyword','$product_category','$product_image1','$product_price','$status')";
 $query_run=mysqli_query($con,$query);
 if($query_run){

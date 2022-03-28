@@ -1,0 +1,43 @@
+Create database:project in xampp server
+Tables:admin
+        Cart
+        categories
+        products
+        user
+
+ For admin   
+
+     id=1
+     name=admin
+     email=admin@outlook.com
+
+
+  Cart
+
+     product_id
+     ip_address
+     quantity
+
+
+  categories:
+        category_id
+        category_title
+
+  products:
+
+         product_id
+         product_title
+         product_discription
+         product_keyword
+         category_id
+         product_image1
+         product_price
+         status
+
+
+ user:
+     id
+     name
+     email
+     phonenumber
+                
